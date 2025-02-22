@@ -1,0 +1,32 @@
+.contactCard {
+    display: flex;
+    width: 178px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactBut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 5px;
+}
+
+.contactBut:hover {
+    background-color: aqua;
+    color: black;
+}

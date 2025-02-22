@@ -1,0 +1,8 @@
+.ulCss {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
